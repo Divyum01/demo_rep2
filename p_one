@@ -1,0 +1,8 @@
+# List of Git Commands
+
+# Basic Commands
+git init                # Initialize a new Git repository
+git clone <url>         # Clone a repository from a remote URL
+git status              # Check the status of the working directory and staging area
+git add <file>          # Add a file to the staging area
+git commit -m "message"
