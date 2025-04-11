@@ -1,0 +1,54 @@
+# List of Git Commands
+
+# Initialize a new Git repository
+git init
+
+# Clone an existing repository
+git clone <repository_url>
+
+# Check the status of the repository
+git status
+
+# Add files to the staging area
+git add <file_name>
+git add .
+
+# Commit changes to the repository
+git commit -m "Commit message"
+
+# View commit history
+git log
+
+# Create a new branch
+git branch <branch_name>
+
+# Switch to a branch
+git checkout <branch_name>
+
+# Create and switch to a new branch
+git checkout -b <branch_name>
+
+# Merge a branch into the current branch
+git merge <branch_name>
+
+# Push changes to a remote repository
+git push origin <branch_name>
+
+# Pull changes from a remote repository
+git pull origin <branch_name>
+
+# Add a remote repository
+git remote add origin <repository_url>
+
+# View configured remotes
+git remote -v
+
+# Delete a branch
+git branch -d <branch_name>
+
+# Stash changes
+git stash
+git stash apply
+
+# View differences between commits or branches
+git diff
